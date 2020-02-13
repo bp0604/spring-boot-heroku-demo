@@ -1,3 +1,10 @@
+# webhook page
+https://github.com/bp0604/spring-boot-heroku-demo/settings/hooks
+
+http://drone.baomihua.xyz/hook
+更改为：
+http://drone.baomihua.xyz:8082/hook
+
 # spring-boot-heroku-demo
 
 [![Build Status](https://travis-ci.org/britter/spring-boot-heroku-demo.svg?branch=master)](https://travis-ci.org/britter/spring-boot-heroku-demo)
