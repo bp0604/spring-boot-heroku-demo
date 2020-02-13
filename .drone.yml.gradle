@@ -8,3 +8,4 @@ steps:
     - gradle assemble
     - gradle check
     # - gradle clean build
+    
