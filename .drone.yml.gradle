@@ -7,5 +7,4 @@ steps:
     commands:
     - gradle assemble
     - gradle check
-    # - gradle clean build
-    
+    - gradle clean build
