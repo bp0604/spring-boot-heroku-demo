@@ -7,4 +7,4 @@ steps:
   image: gradle:jdk11
   commands:
   - echo build
-  - gradle clean build
+  - ./gradlew clean build
