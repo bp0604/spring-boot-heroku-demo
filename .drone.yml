@@ -1,10 +1,10 @@
 kind: pipeline
-type: docker
 name: default
 
 steps:
-- name: greeting
-  image: alpine
-  commands:
-  - echo hello
-  - echo world
+- name: build
+    image: gradle:jdk11
+    commands:
+    #- gradle assemble
+    #- gradle check
+    - gradle clean build
