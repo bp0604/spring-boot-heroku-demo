@@ -1,5 +1,6 @@
 kind: pipeline
-name: default
+type: docker
+name: build
 
 steps:
 - name: build
@@ -7,4 +8,4 @@ steps:
     commands:
     #- gradle assemble
     #- gradle check
-    - gradle clean build
+    - ./gradlew clean build
