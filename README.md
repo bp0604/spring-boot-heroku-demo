@@ -5,6 +5,14 @@ http://drone.baomihua.xyz/hook
 更改为：
 http://drone.baomihua.xyz:8082/hook
 
+
+docker:
+5.6.2-jdk11
+docker pull gradle:5.6.2-jdk11
+
+https://hub.docker.com/_/gradle?tab=tags&page=4&ordering=last_updated
+
+
 # spring-boot-heroku-demo
 
 [![Build Status](https://travis-ci.org/britter/spring-boot-heroku-demo.svg?branch=master)](https://travis-ci.org/britter/spring-boot-heroku-demo)

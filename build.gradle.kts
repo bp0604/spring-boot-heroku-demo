@@ -30,7 +30,22 @@ group = "com.github.britter"
 version = "0.2.9"
 
 repositories {
-    mavenCentral()
+    // mavenCentral()
+
+    jcenter {
+        name = "aliyunJcenter" 
+        url = uri("https://maven.aliyun.com/repository/jcenter")
+    
+    }
+    google {
+        name = "aliyunGoogle"
+        url = uri("https://maven.aliyun.com/repository/google")
+    }
+    mavenCentral {
+        name = "aliyunMavenCentral"
+        url = uri("https://maven.aliyun.com/repository/public")
+    }
+
 }
 
 dependencies {

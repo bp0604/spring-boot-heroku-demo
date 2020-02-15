@@ -4,7 +4,7 @@ name: default
 
 steps:
 - name: greeting
-  image: gradle:jdk11
+  image: gradle:5.6.2-jdk11
   commands:
   - echo build
-  - ./gradlew clean build
+  - gradle clean build
