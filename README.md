@@ -5,7 +5,6 @@ http://drone.baomihua.xyz/hook
 更改为：
 http://drone.baomihua.xyz:8082/hook
 
-
 docker:
 5.6.2-jdk11
 docker pull gradle:5.6.2-jdk11
