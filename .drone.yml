@@ -3,15 +3,8 @@ type: docker
 name: default
 
 steps:
-# - name: greeting
-#   image: gradle:5.6.2-jdk11
-#   commands:
-#   - echo build
-#   - gradle clean build
-
-- name: send-wechat
-  image: yakumioto/serverchan
-  settings:
-    key: SCU4861T0a4bfb1db1e23217be0172052d954647586647cc0e391
-    text: drone
-    desp: Send by ServerChan from drone
+- name: greeting
+  image: gradle:5.6.2-jdk11
+  commands:
+  - echo build
+  - gradle clean build
